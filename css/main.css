@@ -1,0 +1,166 @@
+
+/*************************
+GENERAL
+*************************/
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+}
+
+ul li{
+	list-style: none;
+	color: #757575;
+	line-height: 1.8;
+	font-weight: 400;
+}
+
+a:link{
+	color:#eba804;
+}
+
+.container{
+	margin-top: 2rem;
+	margin-bottom: 8rem;
+}
+
+p{
+	color: #757575;
+}
+
+/*************************
+PAINTINGS
+*************************/
+.thumbnail-image{
+	padding: .5rem;
+}
+
+/*************************
+ABOUT
+*************************/
+.about-artist{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*************************
+RESUME
+*************************/
+.resume-heading{
+	color: #2e2e2e;
+	font-weight: 600;
+}
+
+/*************************
+CONTACT
+*************************/
+.contact{
+	padding-top: 9rem;
+}
+
+.mfp-title{
+	font-size: 11px;
+}
+
+/*************************
+FOOTER
+*************************/
+footer{
+	background-color: #968F8F;
+	height: 53px;
+}
+
+.copyright-name{
+	color: #2A2828;
+	font-size: 11px;
+
+}
+
+/*************************
+MEDIA QUERIES
+*************************/
+/*************************
+HOME PAGE
+*************************/
+/*@media screen and (min-width: 320px){
+	.homepage-image{
+		height: 25em;
+	}
+}*/
+/*************************
+PAINTINGS
+*************************/
+@media screen and (min-width: 320px){
+	.paintings-page{
+	    padding-right: 5px;
+	    padding-left: 0px;
+}
+}
+
+@media screen and (min-width: 360px){
+	.paintings-page{
+    	padding-right: 27px;
+    	padding-left: 19px;
+	}
+}
+
+@media screen and (min-width: 375px){
+	.paintings-page{
+		padding-right: 27px;
+		padding-left: 21px;
+	}
+}
+
+@media screen and (min-width: 425px){
+	.paintings-page{
+		/*padding-right: 12px;
+    	padding-left: 88px;*/
+    	/*padding-right: 42px;
+    	padding-left: 58px;*/
+    	padding-right: 47px;
+    	padding-left: 52px;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.paintings-page{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+/*************************
+RESUME
+*************************/
+@media screen and (min-width: 320px){
+	.resume-page{
+	    width: 100%;
+	    padding-right: 5px;
+	    padding-left: 2.5px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    font-size: 90%;
+}
+}
+
+
+@media screen and (min-width: 360px){
+	.resume-page{
+		width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    font-size: 95%;
+}
+}
+
+@media screen and (min-width: 768px){
+	.resume-page{
+		width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    font-size: 100%;
+}
+}
